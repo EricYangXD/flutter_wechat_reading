@@ -49,6 +49,7 @@ class _TabNavigatorState extends State<TabNavigator> {
             _bottomItem("分享", Icons.explore, 1),
             _bottomItem("免费", Icons.donut_small, 2),
             _bottomItem("长安", Icons.person, 3),
+            _bottomItem("海报", Icons.camera, 4),
           ]),
     );
   }

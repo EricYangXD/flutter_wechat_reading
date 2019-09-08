@@ -1,5 +1,7 @@
 import 'package:beauty_flutter/card_changan.dart';
 import 'package:beauty_flutter/card_free.dart';
+import 'package:beauty_flutter/card_post.dart';
+import 'package:beauty_flutter/card_test.dart';
 import 'package:beauty_flutter/card_recommend.dart';
 import 'package:beauty_flutter/card_share.dart';
 import 'package:flutter/material.dart';
@@ -28,6 +30,7 @@ class _ContentPagerState extends State<ContentPager> {
     Colors.red,
     Colors.deepOrange,
     Colors.teal,
+    Colors.yellow,
   ];
   //初始化时把当前的pageController赋值给contentPagerController
   @override
@@ -54,6 +57,7 @@ class _ContentPagerState extends State<ContentPager> {
             _wrapItem(CardShare()),
             _wrapItem(CardFree()),
             _wrapItem(CardChangan()),
+            _wrapItem(CardPost()),
           ],
         ))
       ],
